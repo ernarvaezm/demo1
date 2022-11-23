@@ -1,7 +1,7 @@
 :root {
-  --color1: #61dafb;
-  --color2: #EC111A;
-  --color3: #138468;
+  --browser-default1:#61dafb;
+  --browser-red2:#EC111A;
+  --browser-green3:#138468;
 }
 
 body {

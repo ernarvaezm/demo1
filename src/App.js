@@ -17,9 +17,9 @@ function App() {
 
 
     const meta = document.querySelector('meta[name=theme-color]')
-    const color1 = getComputedStyle(document.documentElement).getPropertyValue('--color1');
-    const color2 = getComputedStyle(document.documentElement).getPropertyValue('--color2');
-    const color3 = getComputedStyle(document.documentElement).getPropertyValue('--color3');
+    const color1 = getComputedStyle(document.documentElement).getPropertyValue('--browser-default1');
+    const color2 = getComputedStyle(document.documentElement).getPropertyValue('--browser-blue2');
+    const color3 = getComputedStyle(document.documentElement).getPropertyValue('--browser-green3');
 
     let value5 = Math.floor(Math.random() * 4);
 

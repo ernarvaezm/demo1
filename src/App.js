@@ -8,6 +8,9 @@ function App() {
 
     const meta = document.querySelector('meta[name=theme-color]')
     const color = getComputedStyle(document.documentElement).getPropertyValue('--color-logo');
+
+    console.log(meta);
+    console.log(color);
   }, []);
 
   const sayHello = (name) => {
